@@ -29,7 +29,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
-math.html
+## math.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -104,7 +104,7 @@ math.html
 </body>
 </html>
 ```
-views.py
+## views.py
 ```
 from django.shortcuts import render 
 def powerofbulb(request): 
@@ -126,7 +126,7 @@ def powerofbulb(request):
         print('power=',power) 
     return render(request,'mathapp/math.html',context)
 ```
-urls.py
+## urls.py
 ```
 from django.contrib import admin
 from django.urls import path
